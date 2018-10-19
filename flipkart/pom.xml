@@ -8,6 +8,12 @@
     <packaging>pom</packaging>
 
     <name>flipkart</name>
+    <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.5.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,5 +46,6 @@
     </build>
   <modules>
     <module>login</module>
+    <module>retrieveProducts</module>
   </modules>
 </project>
